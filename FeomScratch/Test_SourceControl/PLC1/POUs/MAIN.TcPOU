@@ -4,6 +4,7 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	bInit: BOOL;
+	Test123: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -11,13 +12,16 @@ END_VAR
 	bInit:=TRUE;
 END_IF
 
-P001_Counter1();]]></ST>
+P001_Counter1();
+Test123:=2;
+]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="6" Count="0" />
       <LineId Id="8" Count="1" />
       <LineId Id="13" Count="0" />
       <LineId Id="12" Count="0" />
+      <LineId Id="18" Count="1" />
     </LineIds>
   </POU>
 </TcPlcObject>
