@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.13">
+  <POU Name="P002_TestAnother" Id="{c74cab12-d06d-4274-a9ed-749bfc5796e6}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM P002_TestAnother
+VAR
+	Count: INT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[Count:=Count+2;
+]]></ST>
+    </Implementation>
+    <LineIds Name="P002_TestAnother">
+      <LineId Id="5" Count="1" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
