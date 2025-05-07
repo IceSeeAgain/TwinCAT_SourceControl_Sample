@@ -7,6 +7,7 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
+      <ST><![CDATA[P001_Counter1();]]></ST>
       <ST><![CDATA[IF NOT bInit THEN
 	bInit:=TRUE;
 END_IF]]></ST>
