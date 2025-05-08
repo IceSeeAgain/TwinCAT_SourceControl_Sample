@@ -11,5 +11,24 @@
 		<Plc>
 			<Project File="PLC1.xti"/>
 		</Plc>
+		<Variants SpecificLocalBootFolder="true">
+			<Group>
+				<Name>group1</Name>
+				<Member>Variant2</Member>
+				<Member>Variant3</Member>
+			</Group>
+			<Variant>
+				<Name>Variant1</Name>
+				<Desc><![CDATA[Enabled some IO]]></Desc>
+			</Variant>
+			<Variant>
+				<Name>Variant2</Name>
+				<Desc><![CDATA[Enabled futher IO]]></Desc>
+			</Variant>
+			<Variant>
+				<Name>Variant3</Name>
+				<Desc><![CDATA[EnabledMoreIO]]></Desc>
+			</Variant>
+		</Variants>
 	</Project>
 </TcSmProject>
