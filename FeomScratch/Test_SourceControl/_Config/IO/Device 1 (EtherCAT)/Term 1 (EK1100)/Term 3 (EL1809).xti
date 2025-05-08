@@ -1,11 +1,15 @@
 <?xml version="1.0"?>
-<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.62" ClassName="CFlbTermDef" SubType="9099">
-	<Box Id="3" BoxType="9099">
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.62" ClassName="CFlbTermDef" SubType="9099" TcProjectVariant="Variant1">
+	<Box Id="3" Disabled="true" BoxType="9099">
 		<Name>__FILENAME__</Name>
 		<ImageId>7</ImageId>
 		<ProjectVariant PvUseDisable="true">
 			<Variant>
 				<Name>Variant1</Name>
+				<Disable>1</Disable>
+				<PortABoxInfo>#x01000002</PortABoxInfo>
+			</Variant>
+			<Variant>
 				<Name>Variant2</Name>
 				<Name>Variant3</Name>
 				<Disable>0</Disable>
