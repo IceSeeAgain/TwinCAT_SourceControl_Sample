@@ -11,6 +11,9 @@
 		<Plc>
 			<Project File="PLC1.xti"/>
 		</Plc>
+		<Io>
+			<Device File="Device 1 (EtherCAT).xti" Id="1"/>
+		</Io>
 		<Variants SpecificLocalBootFolder="true">
 			<Group>
 				<Name>group1</Name>
